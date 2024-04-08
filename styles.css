@@ -1,5 +1,4 @@
 body {
-    font-family: Pacifico, sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -22,7 +21,7 @@ details[open] {
 details[open] summary img {
     width: 200px; /* Larger size when details is open */
 }
-summary {
+summary {font-family: Pacifico, sans-serif;
     padding: 20px;
     background-color: #bde0fe; 
     color: #40514e; 
@@ -47,7 +46,7 @@ summary::-webkit-details-marker {
     width: auto; 
     max-width: 100%; 
 }
-.message img {
+.message img {font-family: Raleway, sans-serif;
     width: 300px;
     height: auto;
     margin-top: 20px;
